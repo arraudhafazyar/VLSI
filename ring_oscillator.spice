@@ -1,0 +1,12 @@
+** sch_path: /home/fazya09/latihan1/ring_oscillator.sch
+**.subckt ring_oscillator vdd out gnd
+*.iopin vdd
+*.iopin gnd
+*.opin out
+x1 vdd out net1 gnd hierarchy1
+x2 vdd net1 net2 gnd hierarchy1
+x3 vdd net2 out gnd hierarchy1
+**.ends
+
+
+.end
